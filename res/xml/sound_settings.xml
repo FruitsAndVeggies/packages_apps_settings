@@ -81,6 +81,12 @@
             android:key="haptic_feedback"
             android:title="@string/haptic_feedback_enable_title"
             android:defaultValue="true" />
+            
+    <CheckBoxPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volbtn_music_controls_title"
+            android:summary="@string/volbtn_music_controls_summary"
+            android:persistent="false" />
 
     <ListPreference
             android:key="emergency_tone"
