@@ -279,7 +279,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(), Settings.System.NOTIFICATION_LIGHT_PULSE,
                     value ? 1 : 0);
             return true;
-        }
+        } else if (preference == mVolumeWake) {
+	    Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_WAKE_SCREEN,
+		    mVolumeWake.isChecked() ? 1 : 0);
+	}
+	
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
