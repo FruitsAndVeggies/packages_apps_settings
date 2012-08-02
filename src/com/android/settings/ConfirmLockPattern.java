@@ -106,6 +106,7 @@ public class ConfirmLockPattern extends PreferenceActivity {
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             mLockPatternUtils = new LockPatternUtils(getActivity());
+            mLockPatternUtils.updateLockPatternSize();
         }
 
         @Override
@@ -131,6 +132,7 @@ public class ConfirmLockPattern extends PreferenceActivity {
             }
 
             mLockPatternView.setTactileFeedbackEnabled(mLockPatternUtils.isTactileFeedbackEnabled());
+            mLockPatternView.setLockPatternSize(mLockPatternUtils.getLockPatternSize());
             mLockPatternView.setOnPatternListener(mConfirmExistingLockPatternListener);
             updateStage(Stage.NeedToUnlock);
 
@@ -255,7 +257,8 @@ public class ConfirmLockPattern extends PreferenceActivity {
             }
 
             public void onPatternDetected(List<LockPatternView.Cell> pattern) {
-                if (mLockPatternUtils.checkPattern(pattern)) {
+				mLockPatternView.setLockPatternSize(mLockPatternUtils.getLockPatternSize());
+				if (mLockPatternUtils.checkPattern(pattern)) {
 
                     Intent intent = new Intent();
                     intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_PASSWORD,
