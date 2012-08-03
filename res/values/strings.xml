@@ -4117,6 +4117,24 @@
 
     <!-- Fnv settings category -->
     <string name="themes_settings">Themes</string>
+    <string name="aboutfnv_settings">About us</string>
+
+    <!-- Weblinks title -->
+    <string name="fnv_weblinks">WEBLINKS</string>
+
+    <!-- About us -->
+    <string name="fnv_webpage_title">Website</string>
+    <string name="fnv_webpage_summary">projectfnv.com</string>
+    <string name="fnv_github_title">Code</string>
+    <string name="fnv_github_summary">github.com/FruitsAndVeggies</string>
+    <string name="fnv_irc_title">Irc</string>
+    <string name="fnv_irc_summary">webchat.freenode.net/?channels=fnv</string>
+    <string name="fnv_twitter_title">Twitter</string>
+    <string name="fnv_twitter_summary">twitter.com/projectfnv</string>
+    <string name="fnv_facebook_title">Facebook</string>
+    <string name="fnv_facebook_summary">facebook.com/projectfnv</string>
+    <string name="fnv_googleplus_title">Google+</string>
+    <string name="fnv_googleplus_summary">gplus.to/projectfnv</string>
     
     <!-- Sound settings screen -->
     <string name="volbtn_music_controls_title">Volume button music control</string>

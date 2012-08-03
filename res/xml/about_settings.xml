@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/about_settings"
+    android:key="about_settings"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:key="fnv_weblinks"
+        android:title="@string/fnv_weblinks">
+
+        <Preference
+            android:key="fnv_webpage"	
+            android:title="@string/fnv_webpage_title"
+            android:summary="@string/fnv_webpage_summary"
+        />
+
+        <Preference
+            android:key="fnv_github"	
+            android:title="@string/fnv_github_title"
+            android:summary="@string/fnv_github_summary"
+        />
+
+        <Preference
+            android:key="fnv_irc"	
+            android:title="@string/fnv_irc_title"
+            android:summary="@string/fnv_irc_summary"
+        />
+
+        <Preference
+            android:key="fnv_twitter"	
+            android:title="@string/fnv_twitter_title"
+            android:summary="@string/fnv_twitter_summary"
+        />
+
+        <Preference
+            android:key="fnv_facebook"	
+            android:title="@string/fnv_facebook_title"
+            android:summary="@string/fnv_facebook_summary"
+        />
+
+        <Preference
+            android:key="fnv_googleplus"	
+            android:title="@string/fnv_googleplus_title"
+            android:summary="@string/fnv_googleplus_summary"
+        />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
