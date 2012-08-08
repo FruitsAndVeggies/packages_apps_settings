@@ -15,6 +15,7 @@ import com.android.settings.R;
 public class AboutSettings extends SettingsPreferenceFragment {
 
         Preference mFnvWebpage;
+        Preference mFnvDonate;
         Preference mFnvGithub;
         Preference mFnvIrc;
         Preference mFnvTwitter;
@@ -27,6 +28,7 @@ public class AboutSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.about_settings);
         
         mFnvWebpage = findPreference("fnv_webpage");
+        mFnvDonate = findPreference("fnv_donate");
         mFnvGithub = findPreference("fnv_github");
         mFnvIrc = findPreference("fnv_irc");
         mFnvTwitter = findPreference("fnv_twitter");
@@ -39,6 +41,8 @@ public class AboutSettings extends SettingsPreferenceFragment {
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mFnvWebpage) {
             gotoUrl("http://projectfnv.com/");
+       } else if (preference == mFnvDonate) {
+            gotoUrl("http://goo.gl/3Vo2G");
         } else if (preference == mFnvGithub) {
             gotoUrl("https://github.com/FruitsAndVeggies/");
         } else if (preference == mFnvIrc) {
@@ -55,7 +59,7 @@ public class AboutSettings extends SettingsPreferenceFragment {
 
     private void gotoUrl(String url) {
         Uri page = Uri.parse(url);
-        Intent i = new Intent(Intent.ACTION_VIEW, page);
-        getActivity().startActivity(i);
+        Intent internet = new Intent(Intent.ACTION_VIEW, page);
+        getActivity().startActivity(internet);
     }
 }

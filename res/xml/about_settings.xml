@@ -16,6 +16,12 @@
         />
 
         <Preference
+            android:key="fnv_donate"	
+            android:title="@string/fnv_donate_title"
+            android:summary="@string/fnv_donate_summary"
+        />
+
+        <Preference
             android:key="fnv_github"	
             android:title="@string/fnv_github_title"
             android:summary="@string/fnv_github_summary"

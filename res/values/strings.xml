@@ -4131,6 +4131,8 @@
     <!-- About us -->
     <string name="fnv_webpage_title">Website</string>
     <string name="fnv_webpage_summary">projectfnv.com</string>
+    <string name="fnv_donate_title">Donate</string>
+    <string name="fnv_donate_summary">paypal.com</string>
     <string name="fnv_github_title">Code</string>
     <string name="fnv_github_summary">github.com/FruitsAndVeggies</string>
     <string name="fnv_irc_title">Irc</string>
