@@ -1,54 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/about_settings"
+    android:title="@string/aboutfnv_settings"
     android:key="about_settings"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="fnv_webpage"	
+        android:title="@string/fnv_webpage"
+    />
+
+    <Preference
+        android:key="fnv_donate"	
+        android:title="@string/fnv_donate"
+    />
+
+
     <PreferenceCategory
-        android:key="fnv_weblinks"
-        android:title="@string/fnv_weblinks">
-
-        <Preference
-            android:key="fnv_webpage"	
-            android:title="@string/fnv_webpage_title"
-            android:summary="@string/fnv_webpage_summary"
-        />
-
-        <Preference
-            android:key="fnv_donate"	
-            android:title="@string/fnv_donate_title"
-            android:summary="@string/fnv_donate_summary"
-        />
+        android:key="fnv_code"
+        android:title="@string/fnv_code">
 
         <Preference
             android:key="fnv_github"	
-            android:title="@string/fnv_github_title"
-            android:summary="@string/fnv_github_summary"
+            android:title="@string/fnv_github"
         />
 
         <Preference
+            android:key="fnv_gerrit"	
+            android:title="@string/fnv_gerrit"
+        />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="fnv_social"
+        android:title="@string/fnv_social">
+
+        <Preference
             android:key="fnv_irc"	
-            android:title="@string/fnv_irc_title"
-            android:summary="@string/fnv_irc_summary"
+            android:title="@string/fnv_irc"
         />
 
         <Preference
             android:key="fnv_twitter"	
-            android:title="@string/fnv_twitter_title"
-            android:summary="@string/fnv_twitter_summary"
+            android:title="@string/fnv_twitter"
         />
 
         <Preference
             android:key="fnv_facebook"	
-            android:title="@string/fnv_facebook_title"
-            android:summary="@string/fnv_facebook_summary"
+            android:title="@string/fnv_facebook"
         />
 
         <Preference
-            android:key="fnv_googleplus"	
-            android:title="@string/fnv_googleplus_title"
-            android:summary="@string/fnv_googleplus_summary"
+            android:key="fnv_googleplus"
+            android:title="@string/fnv_googleplus"
+        />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="fnv_threads"
+        android:title="@string/fnv_threads">
+
+        <Preference
+            android:key="fnv_toro"	
+            android:title="@string/fnv_toro_title"
+            android:summary="@string/fnv_toro_summary"
+        />
+
+        <Preference
+            android:key="fnv_maguro"	
+            android:title="@string/fnv_maguro_title"
+            android:summary="@string/fnv_maguro_summary"
         />
 
     </PreferenceCategory>
