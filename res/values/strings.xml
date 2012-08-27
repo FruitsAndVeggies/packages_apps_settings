@@ -4125,7 +4125,8 @@
     <string name="themes_settings">Themes</string>
     <string name="aboutfnv_settings">About us</string>
 
-    <!-- Weblinks title -->
+    <!-- About -->
+    <string name="fnv_summary">Project Fruits and Veggies is a ROM built by the community to have the features and stability you need to make it your daily driver. Due to us being a community ROM we rely on everyone to do their part, whether that is making a donation to Paypal, submitting code to gerrit, suggesting a feature on our IRC, reporting a bug in your device thread, or just using our rom. You can find these and other useful links below. Thank you for your support!</string>
     <string name="fnv_webpage">Website</string>
     <string name="fnv_donate">Donate with paypal</string>
     <string name="fnv_code">CODE</string>

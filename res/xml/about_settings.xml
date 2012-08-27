@@ -5,6 +5,11 @@
     android:key="about_settings"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="fnv_summary"
+        android:layout="@layout/about_summary"
+    />
+
     <Preference
         android:key="fnv_webpage"	
         android:title="@string/fnv_webpage"
