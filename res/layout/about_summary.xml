@@ -23,7 +23,6 @@
             android:layout_alignTop="@id/logo"
             android:layout_marginTop="72dip"
             android:padding="8dip"
-            android:gravity="center_horizontal"
             android:textColor="@android:color/white"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/fnv_summary"
