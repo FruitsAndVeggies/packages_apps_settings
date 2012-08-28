@@ -853,12 +853,6 @@
     <!-- Summary for "Configure lockscreen" when security password is enabled [CHAR LIMIT=45] -->
     <string name="unlock_set_unlock_mode_password">Password</string>
 
-	<!-- Sizes for pattern lockscreen -->
-	<string name="lock_pattern_size_3">3x3</string>
-	<string name="lock_pattern_size_4">4x4</string>
-	<string name="lock_pattern_size_5">5x5</string>
-	<string name="lock_pattern_size_6">6x6</string>
-
     <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
     <string name="unlock_disable_lock_title">Turn off screen lock</string>
 
@@ -4142,6 +4136,15 @@
     <string name="fnv_toro_summary">Verizon galaxy nexus</string>
     <string name="fnv_maguro_title">Maguro</string>
     <string name="fnv_maguro_summary">HSPA+ galaxy nexus</string>
+
+    <!-- Pattern size -->
+    <string name="lock_pattern_size_title">Choose pattern size</string>
+    <string name="lock_pattern_size_summary">These settings affect the grid size of the pattern unlock. The larger the grid size selected the more secure your device becomes.\n\n&#8226; 3x3 is android default\n\n&#8226; Only one size can be selected at a time</string>
+    <string name="lock_pattern_size_3">3x3</string>
+    <string name="lock_pattern_size_4">4x4</string>
+    <string name="lock_pattern_size_5">5x5</string>
+    <string name="lock_pattern_size_6">6x6</string>
+
     
     <!-- Sound settings screen -->
     <string name="volbtn_music_controls_title">Volume button music control</string>
