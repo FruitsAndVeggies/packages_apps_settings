@@ -4168,4 +4168,10 @@
     <string name="navigation_bar_reset_message">Delete current settings and restore to default?</string>
     <string name="navigation_bar_save_message">Navigation bar settings saved</string>
     <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
+
+    <!-- Volume Panel -->
+    <string name="volume_overlay_title">Volume panel</string>
+    <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
+    <string name="link_volume_mutes">Silent mode affects notifications</string>
+    <string name="volume_ring_only_description">Ringtone</string>    
 </resources>
