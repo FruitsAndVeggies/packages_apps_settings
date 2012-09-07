@@ -1436,6 +1436,7 @@
 
 	<!-- FNV activites Start -->
 	<!-- <activity android:name=".fnv.LockscreenInterface" -->
+	<activity android:name=".fnv.LightLevelsActivity" />
 	
 	<!-- FNV activites End -->
 
