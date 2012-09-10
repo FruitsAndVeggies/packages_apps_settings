@@ -4215,6 +4215,14 @@
     <string name="ll_reload">Reload current</string>
     <string name="ll_bad_levels">Levels must be increasing</string>
     <string name="ll_num_levels">Set number of levels</string>
+    
+    <!--Right/Center/Hide clock strings-->
+    <string name="combined_clock_title">Clock Settings</string>
+    <string name="status_bar_clock_title">Clock style</string>
+    <string name="status_bar_general_title">General</string>
+    <string name="status_bar_show_clock_title">Show clock</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
 
     <!-- EOS Strings -->
     <string name="eos_settings">Settings</string>

@@ -922,4 +922,28 @@ located. Any changes that are not made in both files are likely to be rejected. 
         <item>top</item>
         <item>bottom</item>
     </string-array>
+	
+	<!-- Right/Center/Hide clock options-->	
+    <string-array name="clock_style_entries">
+        <item>Right clock</item>
+        <item>Center clock</item>
+        <item>No clock</item>
+    </string-array>
+
+    <string-array name="clock_style_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    
+    <string-array name="entries_status_bar_am_pm">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+	
+    <string-array name="values_status_bar_am_pm" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
 </resources>
