@@ -870,5 +870,56 @@
         <item>70</item>
         <item>80</item>
         <item>90</item>
+     </string-array>
+
+<!-- ANY changes to these values must also be reflected in the Settings 
+class file where the preference key string and the default values are 
+located. Any changes that are not made in both files are likely to be rejected. -->
+
+    <string-array name="eos_quick_enabled_preferences">
+        <item>eos_systemui_settings_wifi</item>
+        <item>eos_systemui_settings_bluetooth</item>
+        <item>eos_systemui_settings_gps</item>
+        <item>eos_systemui_settings_autorotate</item>
+        <item>eos_systemui_settings_silent</item>
+        <item>eos_systemui_settings_airplane</item>
+        <item>eos_systemui_settings_notifications</item>
+        <item>eos_systemui_settings_torch</item>
+        <item>eos_systemui_settings_mobiledata</item>
+        <item>eos_systemui_settings_wifitether</item>
+        <item>eos_systemui_settings_usbtether</item>
+        <item>eos_systemui_settings_lte</item>
+    </string-array>
+    
+    <string-array name="eos_quick_enabled_names">
+        <item>Wifi</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>Auto rotate</item>
+        <item>Silent</item>
+        <item>Airplane</item>
+        <item>Notification</item>
+        <item>Torch</item>
+        <item>Mobile Data</item>
+	    <item>Wifi Tether</item>
+	    <item>USB Tether</item>
+	    <item>LTE Toggle</item>
+    </string-array>
+    <string-array name="eos_display_legal_rotation_names">
+        <item>90 Degrees</item>
+        <item>180 Degrees</item>
+        <item>270 Degrees</item>
+    </string-array>
+
+    <string-array name="eos_interface_eos_settings_location">
+        <item>Disable</item>
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+
+    <string-array name="eos_interface_eos_settings_location_values">
+        <item>disabled</item>
+        <item>top</item>
+        <item>bottom</item>
     </string-array>
 </resources>

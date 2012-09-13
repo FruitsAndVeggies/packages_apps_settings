@@ -4118,6 +4118,7 @@
     <!-- FNV EDITS START -->
 
     <!-- Fnv settings category -->
+    <string name="interface_settings">Fruits (Interface)</string>
     <string name="themes_settings">Themes</string>
     <string name="aboutfnv_settings">About us</string>
 
@@ -4215,4 +4216,22 @@
     <string name="ll_bad_levels">Levels must be increasing</string>
     <string name="ll_num_levels">Set number of levels</string>
 
+    <!-- EOS Strings -->
+    <string name="eos_settings">Settings</string>
+    <string name="eos_interface">Interface</string>
+    <string name="eos_interface_settings">Toggle settings</string>
+    <string name="eos_interface_eos_settings_location">Location</string>
+    <string name="eos_interface_eos_settings_enabled">Enabled toggles</string>
+    <string name="eos_interface_statusbar">Statusbar</string>
+    <string name="eos_interface_statusbar_battery">Battery</string>
+    <string name="eos_interface_statusbar_battery_icon">Show battery icon</string>
+    <string name="eos_interface_statusbar_battery_text">Show battery text</string>
+    <string name="eos_performance">Performance</string>
+    <string name="eos_performance_cpu">CPU Overclocking</string>
+    <string name="eos_performance_cpu_on_boot">Set clock values on boot</string>
+    <string name="eos_performance_cpu_governor">Governor</string>
+    <string name="eos_performance_cpu_min">Minimum frequency</string>
+    <string name="eos_performance_cpu_max">Maximum frequency</string>
+    <string name="eos_performance_current_value">Current value: </string>
+    <string name="eos_performance_boot_value">Boot value: </string>
 </resources>

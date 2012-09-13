@@ -59,6 +59,12 @@
 
     <!-- FRUITS and VEGGIES -->
     <header android:title="@string/header_category_fnv" />
+    
+    <!--Interface-->
+    <header
+		android:id="@+id/interface_settings"
+		android:fragment="com.android.settings.fnv.InterfaceSettings"
+		android:title="@string/interface_settings" />
 
     <!-- Themes -->
     <header

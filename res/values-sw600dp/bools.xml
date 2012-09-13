@@ -17,5 +17,6 @@
 <resources>
     <!-- Whether there is a silent mode checkbox  -->
     <bool name="has_silent_mode">false</bool>
+    <bool name="eos_tablet">true</bool>
 </resources>
 

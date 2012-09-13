@@ -78,5 +78,4 @@
             android:title="@string/pref_volume_wake_title"
             android:summary="@string/pref_volume_wake_summary"
             android:defaultValue="true" />
-
 </PreferenceScreen>
