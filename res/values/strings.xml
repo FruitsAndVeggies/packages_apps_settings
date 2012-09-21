@@ -4217,6 +4217,7 @@
     <string name="ll_num_levels">Set number of levels</string>
     
     <!--Right/Center/Hide clock strings-->
+    <string name="interface_settings_status_bar">Status Bar</string>
     <string name="combined_clock_title">Clock Settings</string>
     <string name="status_bar_clock_title">Clock style</string>
     <string name="status_bar_general_title">General</string>
@@ -4231,15 +4232,5 @@
     <string name="eos_interface_eos_settings_location">Location</string>
     <string name="eos_interface_eos_settings_enabled">Enabled toggles</string>
     <string name="eos_interface_statusbar">Statusbar</string>
-    <string name="eos_interface_statusbar_battery">Battery</string>
-    <string name="eos_interface_statusbar_battery_icon">Show battery icon</string>
-    <string name="eos_interface_statusbar_battery_text">Show battery text</string>
-    <string name="eos_performance">Performance</string>
-    <string name="eos_performance_cpu">CPU Overclocking</string>
-    <string name="eos_performance_cpu_on_boot">Set clock values on boot</string>
-    <string name="eos_performance_cpu_governor">Governor</string>
-    <string name="eos_performance_cpu_min">Minimum frequency</string>
-    <string name="eos_performance_cpu_max">Maximum frequency</string>
-    <string name="eos_performance_current_value">Current value: </string>
-    <string name="eos_performance_boot_value">Boot value: </string>
+
 </resources>

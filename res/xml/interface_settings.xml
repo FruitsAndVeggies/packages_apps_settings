@@ -31,4 +31,12 @@
             android:key="eos_interface_eos_quick_enabled"
             android:title="@string/eos_interface_eos_settings_enabled" />
     </PreferenceCategory>
+		<PreferenceCategory
+			android:key="interface_settings_status_bar"
+			android:title="@string/interface_settings_status_bar" >
+				<PreferenceScreen
+					android:key="status_bar"
+					android:fragment="com.android.settings.fnv.StatusBar"
+					android:title="@string/combined_clock_title" />
+		</PreferenceCategory>
 </PreferenceScreen>

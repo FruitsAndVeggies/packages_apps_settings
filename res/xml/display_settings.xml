@@ -78,9 +78,4 @@
             android:title="@string/pref_volume_wake_title"
             android:summary="@string/pref_volume_wake_summary"
             android:defaultValue="true" />
-        
-		<PreferenceScreen
-			android:key="status_bar"
-			android:fragment="com.android.settings.fnv.StatusBar"
-			android:title="@string/combined_clock_title" />
-</PreferenceScreen>
+ </PreferenceScreen>

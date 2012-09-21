@@ -21,16 +21,6 @@
     <PreferenceCategory
         android:key="eos_interface_statusbar_statusbar"
         android:title="@string/eos_interface_statusbar">
-        <CheckBoxPreference
-            android:key="eos_interface_statusbar_battery_icon"
-            android:title="@string/eos_interface_statusbar_battery_icon"
-            android:persistent="false"
-            />
-        <CheckBoxPreference
-            android:key="eos_interface_statusbar_battery_text"
-            android:title="@string/eos_interface_statusbar_battery_text"
-            android:persistent="false"
-            />
     </PreferenceCategory>
 
     <PreferenceCategory
